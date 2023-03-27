@@ -10,10 +10,10 @@ Set objMail = objOutlook.CreateItem(0)
 
 
 
-objMail.To = "claudio.santos86@yahoo.com.br"
+objMail.To = "email@email"
 objMail.Subject = "Assunto do Email"
 objMail.Body = "Corpo do Email"
-objMail.Attachments.Add "C:\Users\Humanitar\Documents\CITRIX BOT\modelos relatorios\HSH.xls"
+objMail.Attachments.Add "path\do\arquivo.txt"
 
 objMail.Send
 
